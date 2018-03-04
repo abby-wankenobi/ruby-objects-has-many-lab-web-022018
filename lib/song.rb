@@ -1,19 +1,9 @@
-class Song
-  attr_accessor :name, :artist
-
+class Song 
+  
+  attr_accessor :name, :artist 
+  
   def initialize(name)
-    @name = name
-  end
-
-  def artist_name
-    if self.artist
-      self.artist.name
-    else
-      nil
-    end
-  end
-
+    @name = name 
+  end 
+  
 end
-
-#an instance of artist.rb uses song.rb
-#as method arguments
